@@ -1,7 +1,4 @@
 <?php
-
-namespace Repository;
-
 include_once './utils/helpers/DatabaseHelper.php';
 
 class GaleryRepository
