@@ -4,4 +4,4 @@ include_once $_SERVER['DOCUMENT_ROOT'] . '/utils/repositories/GaleryRepository.p
 
 $galeryRepository = new GaleryRepository;
 
-view($_SERVER['DOCUMENT_ROOT'] . '/views/index.php');
+view($_SERVER['DOCUMENT_ROOT'] . '/views/galery/index.php');
