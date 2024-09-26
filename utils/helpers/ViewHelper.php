@@ -2,5 +2,5 @@
 
 function view($view)
 {
-    include_once './view/layout.php';
+    include_once './views/layout.php';
 }

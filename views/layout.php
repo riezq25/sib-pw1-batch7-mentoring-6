@@ -7,8 +7,8 @@ include_once './utils/boot.php';
 
 <head>
     <?php
-    include_once 'view/_partials/meta.php';
-    include_once 'view/_partials/css.php';
+    include_once 'views/_partials/meta.php';
+    include_once 'views/_partials/css.php';
     ?>
 </head>
 
@@ -18,7 +18,7 @@ include_once './utils/boot.php';
     <div id="wrapper">
 
         <?php
-        include_once 'view/_partials/sidebar.php';
+        include_once 'views/_partials/sidebar.php';
         ?>
 
         <!-- Content Wrapper -->
@@ -28,7 +28,7 @@ include_once './utils/boot.php';
             <div id="content">
 
                 <?php
-                include_once './view/_partials/topbar.php';
+                include_once './views/_partials/topbar.php';
                 ?>
 
                 <!-- Begin Page Content -->
@@ -45,7 +45,7 @@ include_once './utils/boot.php';
             <!-- End of Main Content -->
 
             <?php
-            include_once './view/_partials/footer.php';
+            include_once './views/_partials/footer.php';
             ?>
 
         </div>
@@ -60,7 +60,7 @@ include_once './utils/boot.php';
     </a>
 
     <?php
-    include_once 'view/_partials/js.php';
+    include_once 'views/_partials/js.php';
     ?>
 </body>
 
