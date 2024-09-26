@@ -10,6 +10,7 @@ function route()
             'create'    => url('/pages/galery/create.php'),
             'store'     => url('/pages/galery/store.php'),
             'edit'      => url('/pages/galery/edit.php'),
+            'update'      => url('/pages/galery/update.php'),
             'delete'    => url('/pages/galery/delete.php'),
         ]
     ];
