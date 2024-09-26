@@ -2,5 +2,5 @@
 
 function view($view)
 {
-    include_once './views/layout.php';
+    include_once $_SERVER['DOCUMENT_ROOT'].'/views/layout.php';
 }

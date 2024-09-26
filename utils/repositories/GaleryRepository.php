@@ -1,5 +1,5 @@
 <?php
-include_once './utils/helpers/DatabaseHelper.php';
+include_once $_SERVER['DOCUMENT_ROOT'].'/utils/helpers/DatabaseHelper.php';
 
 class GaleryRepository
 {

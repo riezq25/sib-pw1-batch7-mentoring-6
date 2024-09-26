@@ -1,5 +1,5 @@
 <?php
-include_once 'helpers/UrlHelper.php';
+include_once $_SERVER['DOCUMENT_ROOT'].'/utils/helpers/UrlHelper.php';
 
 function route()
 {

@@ -1,5 +1,5 @@
 <?php
-include_once './utils/config.php';
+include_once $_SERVER['DOCUMENT_ROOT'].'/utils/config.php';
 
 function asset($url)
 {

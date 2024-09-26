@@ -1,5 +1,5 @@
 <?php
-include_once './utils/config.php';
+include_once $_SERVER['DOCUMENT_ROOT'].'/utils/config.php';
 
 $databaseConfigs = config()['database'];
 $database = new mysqli($databaseConfigs['host'].':'.$databaseConfigs['port'], $databaseConfigs['username'], $databaseConfigs['password']);

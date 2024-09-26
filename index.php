@@ -1,4 +1,4 @@
 <?php
-include_once './utils/boot.php';
+include_once $_SERVER['DOCUMENT_ROOT'].'/utils/boot.php';
 
-view('./views/index.php');
+view($_SERVER['DOCUMENT_ROOT'].'/views/index.php');
